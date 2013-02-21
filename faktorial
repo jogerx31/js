@@ -1,0 +1,24 @@
+<HTML>
+<head>
+<title>
+JavaScript DESTINATION - P114
+</title>
+</head>
+<BODY>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function factorial(n)
+{
+  if ( (n==0) || (n==1) )
+           return 1;
+    else {
+           result= (n * factorial(n-1));
+           return result;
+         }
+}
+var a=window.prompt('Napiste cislo: ');
+document.write(a+'!='+factorial(a));
+// -->
+</SCRIPT>
+</BODY>
+</HTML>
